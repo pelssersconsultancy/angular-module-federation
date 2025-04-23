@@ -34,3 +34,9 @@ $ nx g @nx/angular:remote apps/login --prefix=ng-mf --host=dashboard
 $ nx g @nx/angular:lib libs/shared/data-access-user
 
 ```
+
+## 6. create a user service in user data-access library
+
+```
+$ nx g @nx/angular:service user --project=data-access-user
+```
