@@ -1,6 +1,6 @@
 Step by step instructions for setting up a angular application using dynamic federation
 
-# Guide based on [NX docs: dynamic module federation with angular](https://nx.dev/recipes/angular/dynamic-module-federation-with-angular)
+# Guide based on NX docs: [dynamic module federation with angular](https://nx.dev/recipes/angular/dynamic-module-federation-with-angular)
 
 ## 1. Create monorepo
 
@@ -20,4 +20,10 @@ $ pnpx nx add @nx/angular
 
 ```
 $ nx g @nx/angular:host apps/dashboard --prefix=ng-mf
+```
+
+## 4. Create a login app as a remote application
+
+```
+$ nx g @nx/angular:remote apps/login --prefix=ng-mf --host=dashboard
 ```
