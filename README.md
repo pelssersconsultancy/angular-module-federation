@@ -40,3 +40,10 @@ $ nx g @nx/angular:lib libs/shared/data-access-user
 ```
 $ nx g @nx/angular:service user --project=data-access-user
 ```
+
+To run both the host and the remote
+
+```
+$ nx run login:serve
+$ nx serve dashboard --devRemotes=login
+```
