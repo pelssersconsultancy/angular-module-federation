@@ -27,3 +27,10 @@ $ nx g @nx/angular:host apps/dashboard --prefix=ng-mf
 ```
 $ nx g @nx/angular:remote apps/login --prefix=ng-mf --host=dashboard
 ```
+
+## 5. Create a shared user data-access library
+
+```
+$ nx g @nx/angular:lib libs/shared/data-access-user
+
+```
