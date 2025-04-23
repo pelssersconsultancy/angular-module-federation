@@ -15,3 +15,9 @@ Next select Azure Devops as CI server
 ```
 $ pnpx nx add @nx/angular
 ```
+
+## 3. Create the host dashboard application for the micro-frontends
+
+```
+$ nx g @nx/angular:host apps/dashboard --prefix=ng-mf
+```
