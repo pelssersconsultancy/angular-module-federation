@@ -47,3 +47,9 @@ To run both the host and the remote
 $ nx run login:serve
 $ nx serve dashboard --devRemotes=login
 ```
+
+## 7. Create a employee host application
+
+```
+$ nx g @nx/angular:host apps/employee --remotes=login --dynamic
+```
